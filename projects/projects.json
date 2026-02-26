@@ -1,0 +1,30 @@
+[
+  {
+    "title": "AI Judge",
+    "link": "https://aijudges.in",
+    "image": null,
+    "embed": "https://www.youtube.com/embed/UVAvqYHO1vc?si=JnZLA4H2fxHv7t4r",
+    "bodyMarkdown": "What would happen if you let AI reason for the hackathon winner?\r\n\r\nI believe that judgement should be 100% transparent which clearly is not the case in any hackathon platform yet. The candidates must know why one submission deserves to be the winner more than the other.\r\n\r\n**The Story :** An AI Judge that compares every other submission, taking submission video and description into consideration to reason and announce winner based on the judging criteria and winner category. It's a heads-on 1v1 battle among all the submissions ⚔️\r\n\r\nDon't trouble yourself with the thoughts of who's gonna be the winner. Sit back and let the 'AI judge' decide!"
+  },
+  {
+    "title": "NameR : Gemini Nano powered PDF downloader",
+    "link": "https://devpost.com/software/namer-gemini-nano-powered-file-downloader",
+    "image": "images/namer.png",
+    "embed": "https://www.youtube.com/embed/Zgf83liLl7o?si=gsIaiPbLSeeOGkZs",
+    "bodyMarkdown": "A file downloader that suggests file name on the go, so you never have to worry about absurd default filenames.\r\n\r\n**The Story :** The idea to build such a thing didn't come all of a sudden. There were countless times when I wasted hours searching for a specific PDF—simply because I hadn't renamed it to something meaningful when I downloaded it. I'd end up scrolling through a chaotic list of files, unsure of their names. This frustration became all too common. The trigger point came when I was at a medical clinic, scrolling through my phone, searching for past medical records with absurd filenames that I never bothered renaming. That moment made me realize how a simple oversight can lead to significant inconvenience.\r\n\r\nPrivacy was a major concern as we don't want any sensitive records go for analysis. The project came to life when Google announced its [Google's Chrome Built-in AI Challenge](https://googlechromeai.devpost.com/). This allowed us to leverage its on-device AI i.e Gemini Nano. We've utilized Gemini Nano to analyse the file locally and suggest a filename during download. The winners are due on January 13, 2025."
+  },
+  {
+    "title": "Named Entity Recognition for Automotive Vehicles",
+    "link": "https://huggingface.co/Hritijr/en_pipeline",
+    "image": "images/vehicle.png",
+    "embed": null,
+    "bodyMarkdown": "Fine-tuned SpaCy's English model to perform Named entity recognition on tags like components, failure issue, vehicle model and corrective action.\r\n\r\n**The Story :** This was part of an assignment where we needed to guess tags related to vehicle entities from an unstructured text log."
+  },
+  {
+    "title": "Submission to Mistral-AI Hackathon",
+    "link": "https://github.com/Rhriti/mistralAI-hackathon",
+    "image": null,
+    "embed": null,
+    "bodyMarkdown": "One of the steps involved in cleaning a video is trimming unnecessary portion from it. For instance, expert labelled videos like 'Minecraft gameplay' don't require video segment of user setting up the game. This is a manual task. I've tried to automate this leveraging LLM and video transcript.\r\n\r\n**The Story :** Being in the operations-AI industry for a while I realized that video cleaning is a tiresome task and one of the steps involved in video cleaning is to timestamp relevant portion of the video which is then used to train an AI Agent. So why not leverage LLM and video transcript for this task!"
+  }
+]
