@@ -7,10 +7,10 @@
     "bodyMarkdown": "What would happen if you let AI reason for the hackathon winner?\r\n\r\nI believe that judgement should be 100% transparent which clearly is not the case in any hackathon platform yet. The candidates must know why one submission deserves to be the winner more than the other.\r\n\r\n**The Story :** An AI Judge that compares every other submission, taking submission video and description into consideration to reason and announce winner based on the judging criteria and winner category. It's a heads-on 1v1 battle among all the submissions ⚔️\r\n\r\nDon't trouble yourself with the thoughts of who's gonna be the winner. Sit back and let the 'AI judge' decide!"
   },
   {
-    "title": "NameR : Gemini Nano powered PDF downloader",
-    "link": "https://devpost.com/software/namer-gemini-nano-powered-file-downloader",
+    "title": "Dragonpdf - Save Files with Content Aware Filenames",
+    "link": "https://devpost.com/software/dragonpdf-save-files-with-content-aware-filenames",
     "image": "images/namer.png",
-    "embed": "https://www.youtube.com/embed/Zgf83liLl7o?si=gsIaiPbLSeeOGkZs",
+    "embed": "https://www.youtube.com/embed/bofxxGChkQk",
     "bodyMarkdown": "A file downloader that suggests file name on the go, so you never have to worry about absurd default filenames.\r\n\r\n**The Story :** The idea to build such a thing didn't come all of a sudden. There were countless times when I wasted hours searching for a specific PDF—simply because I hadn't renamed it to something meaningful when I downloaded it. I'd end up scrolling through a chaotic list of files, unsure of their names. This frustration became all too common. The trigger point came when I was at a medical clinic, scrolling through my phone, searching for past medical records with absurd filenames that I never bothered renaming. That moment made me realize how a simple oversight can lead to significant inconvenience.\r\n\r\nPrivacy was a major concern as we don't want any sensitive records go for analysis. The project came to life when Google announced its [Google's Chrome Built-in AI Challenge](https://googlechromeai.devpost.com/). This allowed us to leverage its on-device AI i.e Gemini Nano. We've utilized Gemini Nano to analyse the file locally and suggest a filename during download. The winners are due on January 13, 2025."
   },
   {

@@ -1,7 +1,7 @@
 ---
-title: NameR : Gemini Nano powered PDF downloader
-link: https://devpost.com/software/namer-gemini-nano-powered-file-downloader
-embed: https://www.youtube.com/embed/Zgf83liLl7o?si=gsIaiPbLSeeOGkZs
+title: dragonpdf - save files with content aware filenames
+link: https://devpost.com/software/dragonpdf-save-files-with-content-aware-filenames
+embed: https://www.youtube.com/embed/bofxxGChkQk
 image: images/namer.png
 order: 2
 ---
