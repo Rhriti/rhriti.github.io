@@ -77,10 +77,14 @@ if (fs.existsSync(projectsDir)) {
   const projects = projectFiles.map(f => {
     const raw = fs.readFileSync(path.join(projectsDir, f), 'utf8');
     const { meta, body } = parseFrontMatter(raw);
+    const images = meta.images
+      ? meta.images.split(',').map(s => s.trim()).filter(Boolean)
+      : null;
     return {
       title: meta.title || f.replace('.md', ''),
       link: meta.link || '',
       image: meta.image || null,
+      images,
       embed: meta.embed || null,
       order: meta.order != null ? parseInt(meta.order, 10) : 999,
       bodyMarkdown: body

@@ -156,7 +156,10 @@ function toggleProfileMedia(container) {
           const linkAttrs = p.link ? `href="${p.link}"${p.link.startsWith('http') ? ' target="_blank"' : ''}` : '';
           const titleHtml = p.link ? `<b><a ${linkAttrs}>${p.title}</a></b><br>` : `<b>${p.title}</b><br>`;
           const contentCell = `<td><div class="highlights">${titleHtml}${bodyHtml}${embedHtml}</div></td>`;
-          const imageCell = p.image ? `<td class="image"><img class="side-image" src="${p.image}" style="padding: 0px 16px"></td>` : '';
+          const imageList = Array.isArray(p.images) && p.images.length ? p.images : (p.image ? [p.image] : []);
+          const imageCell = imageList.length
+            ? `<td class="image">${imageList.map(src => `<img class="side-image" src="${src}" style="padding: 0px 16px 12px 16px">`).join('')}</td>`
+            : '';
           const tr = document.createElement('tr');
           tr.innerHTML = contentCell + imageCell;
           tbody.appendChild(tr);
