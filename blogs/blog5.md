@@ -15,9 +15,7 @@ It's been months since I wrote a blog. I'll write two today: the Bus Stop Analog
 <p>
 <b>Realisation:</b> I get out, see a bus stopping, passing by, I smile. These buses are those events in life that you "miss". You can't do a thing about a missed event, or one that's about to be missed, except smile at it. That's life. It's stupid to cry over a missed bus. They come, they go, they wait for none. Nothing waits for us. Surprisingly the next event is on the way in 3–4 minutes, and you're at the right spot to catch it. Cheers!
 </p>
-<p>
-<i>mila to mila, ni mila to ni mila</i>
-</p>
+
 <p style="margin-top: 16px;">
   <video controls style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 8px;" src="./images/The_Bus_Stop_Analogy.mp4">
     Your browser does not support the video tag.
