@@ -4,3 +4,5 @@ lines I keep coming back to — personal quotes, songs, scraps of talk, things t
 
 
 - [Song by Johnny Cash](https://www.youtube.com/watch?v=9zE4-LX0wrY)
+
+- Favourtie words: Drop (currently), Perspective. 
