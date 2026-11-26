@@ -133,8 +133,6 @@ function toggleProfileMedia(container) {
       btn.classList.toggle('is-active', active);
       btn.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
-    try { localStorage.setItem('siteMode', mode); } catch (e) {}
-
     const quoteVisible = document.getElementById('quote_place')
       && !document.getElementById('quote_place').classList.contains('hidden');
     if (!personal && quoteVisible) {
@@ -240,9 +238,8 @@ function toggleProfileMedia(container) {
     document.querySelectorAll('.mode-btn').forEach((btn) => {
       btn.addEventListener('click', () => setSiteMode(btn.getAttribute('data-mode')));
     });
-    let saved = 'professional';
-    try { saved = localStorage.getItem('siteMode') || 'professional'; } catch (e) {}
-    setSiteMode(saved);
+    try { localStorage.removeItem('siteMode'); } catch (e) {}
+    setSiteMode('professional');
 
     fetchBlogs();
     fetchProjects();
