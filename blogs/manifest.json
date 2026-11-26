@@ -1,5 +1,6 @@
 {
   "files": [
+    "blog8.md",
     "blog7.md",
     "blog6.md",
     "blog5.md",
@@ -9,6 +10,10 @@
     "blog1.md"
   ],
   "posts": [
+    {
+      "file": "blog8.md",
+      "audience": "personal"
+    },
     {
       "file": "blog7.md",
       "audience": "professional"
